@@ -1,0 +1,238 @@
+body {
+    
+    top: 0px;
+    left: 0px;
+    width: 1600px;
+    height: 1195px;
+    
+    background: #F6F7F8 0% 0% no-repeat padding-box;
+
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    margin-top: 35px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #e0e0e0;
+    top: 18px;
+    left: 18px;
+    width: 1564px;
+    height: 72px;
+
+
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 70px;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.logo span {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.nav-links a:hover, .nav-links a.active {
+    background-color: #00e0c6;
+    color: white;
+    background: #01F0D0 0% 0% no-repeat padding-box;
+border-radius: 41px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+}
+
+.profile-info span {
+    font-weight: bold;
+}
+
+.profile-info p {
+    font-size: 12px;
+    color: #777;
+}
+
+.settings-icon {
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+}
+
+.settings-icon i {
+    font-size: 18px;
+}
+.settings img {
+    top: 44px;
+left: 1515px;
+width: 19px;
+height: 20px;
+}
+.fa img {
+    top: 20px;
+    left: 154px;
+    width: 4px;
+    height: 10px;
+}
+
+
+.chat-img img {
+top: 46px;
+left: 889px;
+width: 19px;
+height: 17px;
+/* UI Properties */
+
+}
+li {
+    justify-content: space-between;
+}
+li a img {
+    margin-right: 9px; 
+}
+.chat-history {
+    margin-top: 40px;
+    margin-left: 20px;
+    top: 122px;
+left: 18px;
+width: 367px;
+height: 1054px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 16px;
+::scrollbar-width: 20px;
+::scroll-behavior: color: red;
+}
+.search-button img {
+top: 150px;
+left: 347px;
+width: 18px;
+height: 18px;
+/* UI Properties */
+background: transparent url('img/search_FILL0_wght300_GRAD0_opsz24.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.members {
+/* top: 215px;
+left: 38px; */
+width: 317px;
+height: 48px;
+margin-left: 20px;
+display: flex;
+margin-top: 23px;
+
+
+}
+.min {
+    min-width: 145px;
+
+}
+
+.members img {
+top: 215px;
+left: 38px;
+width: 48px;
+height: 48px;
+background: transparent;
+
+}
+.members h5 {
+top: 218px;
+left: 98px;
+width: 97px;
+height: 19px;
+margin-left: 10px;
+font: normal normal bold 14px/19px Manrope;
+letter-spacing: 0px;
+color: #072635;
+
+
+}
+.members p {
+top: 241px;
+left: 98px;
+width: 66px;
+height: 19px;
+font: normal normal normal 14px/19px Manrope;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+margin-left: 10px;
+
+   
+}
+.members-details {
+    display: block;
+}
+.three img {
+top: 237px;
+left: 337px;
+width: 18px;
+height: 4px;
+display: flex;
+margin-left: 270px;
+margin-top: -15px;
+
+
+}
+#mem-4 {
+    top: 439px;
+    left: 18px;
+    width: 353px;
+    height: 80px;
+background-color: #D8FCF7;
+
+}
