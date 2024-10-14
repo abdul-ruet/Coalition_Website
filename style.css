@@ -3,7 +3,7 @@ body {
     top: 0px;
     left: 0px;
     width: 1600px;
-    height: 1195px;
+height: 1195px;
     
     background: #F6F7F8 0% 0% no-repeat padding-box;
 
@@ -288,13 +288,13 @@ height: 6px;
     height: 242px;
     border-radius: 12px;
     display: inline-flex;
-    margin: 7px;
+    margin: 5px;
     
 }
 .div-heart img {
 
     margin-top: 15px;
-    margin-left: 15px;
+    margin-left: 12px;
 
  
 width: 96px;
@@ -321,7 +321,7 @@ object-fit: cover;
 }
 
 .div-heart {
-    padding-left: 15px;
+    padding-left: 12px;
     
     display:inline-flex;
     flex-direction: column;
@@ -338,3 +338,210 @@ color: #072635;
 font: normal normal normal 14px/19px Manrope;
 min-width: 120px;
 }
+.list {
+    width: 766px;
+height: 349px;
+box-sizing:border-box;
+box-sizing: 12px;
+margin-top: 80px;
+margin-left: 0px;
+
+}
+.table-container {
+            width: 100%;
+            overflow-x: auto;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(111, 3, 3, 0.1);
+            margin: 20px auto;
+            overflow-y: scroll; 
+            margin: 20px auto;
+            border: 1px solid #ddd;
+            min-width: fit-content;
+            
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            font-family: Arial, sans-serif;
+        }
+
+        th, td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #f4f4f4;
+        }
+
+        th {
+            background-color: #fff7f7;
+            color: #333;
+            font-size: 16px;
+        }
+
+        td {
+            font-size: 14px;
+        }
+
+        .highlight {
+            background-color: #f5f5f5;
+            color: #7700ff;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 12px;
+        }
+
+       
+        .status-under-observation {
+            color: #000000;
+            font-weight: bold;
+        }
+
+        .status-cured {
+            color: rgb(30, 0, 0);
+            font-weight: bold;
+        }
+
+        .status-inactive {
+            color: #000000;
+            font-weight: bold;
+        }
+
+    
+        @media screen and (max-width: 768px) {
+            th, td {
+                padding: 10px 8px;
+                font-size: 14px;
+            }
+
+            .highlight {
+                font-size: 10px;
+            }
+        }
+.jessica {
+    width: 367px;
+height: 740px;
+    /* display: flex; */
+    margin-top: 35px;
+    margin-left: 35px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 16px;
+
+
+
+}
+.jessica-img img {
+    margin-left: 60px;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+
+/* text-align: center; */
+
+;}
+.flex {
+    display: inline-flex;
+}
+
+.details h4 {
+    margin-top: 1px;
+    font-style: bold;
+    margin-left: 40px;
+}
+.details img {
+    margin-left: 15px;
+    width: 42px;
+height: 42px;
+
+}
+.details {
+    margin-top: 30px;
+}
+.info {
+    font: normal normal medium 14px/19px Manrope;
+letter-spacing: 0px;
+color: #072635;
+width: 84px;
+height: 19px;
+min-width: 200px;
+}
+
+.new {
+    width: 367px;
+height: 296px;
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+.lab-details h2 {
+    width: 100px;
+height:40px;
+text-align: left;
+font: normal normal normal 13px/18px Manrope;
+letter-spacing: 0px;
+color: #072635;
+margin-left: 25px;
+margin-top: 4px;
+}
+.lab-details {
+    display: flex;
+    width: 315px;
+height: 40px;
+
+}
+.lab-details img {
+    width: 20px;
+height: 20px;
+background: transparent;
+margin-top: 5px;
+}
+
+
+
+.custom-button {
+    background-color: #00ffe0;
+    color: #000;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-button:hover {
+    background-color: #00d8c0;
+  }
+ 
+
+  
+ 
+  
+  
+  @media screen and (max-width: 768px) {
+    .navbar,
+    .container,
+    .flex,
+    .details {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    
+  }
+  
+ 
+  @media screen and (max-width: 1024px) {
+    .navbar ul {
+      flex-direction: column;
+    }
+  
+    .container {
+      flex-direction: column;
+    }
+  }
+  .member :hover {
+    
+    color: #00e0c6;
+    size: 40px;
+  }
