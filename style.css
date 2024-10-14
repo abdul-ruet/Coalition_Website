@@ -246,13 +246,11 @@ background-color: #D8FCF7;
      }
 
 .history {
-    
-/* left: 417px; */
 
 width: 766px;
 height: 673px;
 background:  0% 0% no-repeat padding-box;
-background: linear-gradient(60deg, #062736, #707070, #a4dca9, #7700ff)
+background: linear-gradient(60deg, #062736, #707070, #a4dca9, #7700ff);
 border-radius: 16px;
 
 margin-top: 40px;
