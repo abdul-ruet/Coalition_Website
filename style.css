@@ -5,7 +5,8 @@ body {
     width: 1600px;
 height: 1195px;
     
-    background: #a7b9bb 0% 0% no-repeat padding-box;
+    /* background: #a7b9bb 0% 0% no-repeat padding-box; */
+    background: linear-gradient(60deg, #a4dca9, #417781, #596e30, #8d79a4);
 
 
 
@@ -152,7 +153,7 @@ li a img {
 left: 18px;
 width: 367px;
 height: 1054px;
-background: #4a5972 0% 0% no-repeat padding-box;
+background:  linear-gradient(45deg, #60716f, #417781, #b4def1, #605b66);;
 border-radius: 16px;
 }
 .search-button img {
@@ -251,7 +252,7 @@ background-color: #D8FCF7;
 width: 766px;
 height: 673px;
 background:  0% 0% no-repeat padding-box;
-background: #533e3e 0% 0% no-repeat padding-box;
+background: linear-gradient(60deg, #062736, #707070, #a4dca9, #7700ff)
 border-radius: 16px;
 
 margin-top: 40px;
@@ -426,7 +427,7 @@ height: 740px;
     /* display: flex; */
     margin-top: 35px;
     margin-left: 35px;
-    background: #417781 0% 0% no-repeat padding-box;
+    background: linear-gradient(60deg, #a4dca9, #417781, #596e30, #8d79a4);
 border-radius: 16px;
 
 
